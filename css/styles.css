@@ -1,14 +1,18 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 /* header */
+
+header {
+  width: 100vw;
+}
 .subtitulo {
   background-color: #1cd1b0;
-  width: 100vw;
+
   height: 38px;
   font-family: "Roboto", sans-serif;
   padding: 10px;
@@ -24,75 +28,81 @@ body {
 }
 
 /* contenido */
-
-.contenido {
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-  margin-top: 153px;
-  margin-bottom: 151px;
+.caja-mayor {
   display: flex;
   justify-content: center;
 }
-
-/* lista cards */
-
-.lista-cards{
+.contenido {
   display: flex;
   justify-content: space-between;
+  margin-top: 154px;
+  margin-bottom: 151px;
   width: 960px;
+  
+ 
+}
+/* lista cards */
+.caja {
+  width: 300px;
+  background: #f3f3f3;
+  padding-bottom: 18px;
 }
 
-/* card */
+.centrado {
+  display: flex;
+  justify-content: center;
 
-.card{
-    background-color: slateblue;
-    width: 300px;
-    height: 529px;
-    display: flex;
-    flex-direction: column;
-    
-   
+  margin-top: -60px;
+}
+
+.imagen-circulo {
+  width: 122px;
+  height: 120px;
+  z-index: 2;
+}
+.caja-cabeza {
+  position: relative;
+}
+
+.corazon {
+  position: absolute;
+  left: 21px;
+  top: 15px;
+}
+p {
+  margin: 0px 16px;
+  margin-bottom: 37px;
+}
+
+.caja-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  background: #00669f;
+  width: 128.78px;
+  height: 48.52px;
+  font-size: 15px;
+  color: white;
 }
 
 /* card cabecera */
 
-.card-cabecera{
-  height: 194px;
-  width: 100%;
-}
-
 /* card imagen */
-.card-imagen{
-  display: flex;
-  justify-content: center;
-  margin-top: -60px;
-}
-.card-imagen img{
-  height: 120px;
-  width: 120px;
-  
- 
-  
-  
-}
 
 /* card contenido */
 
-.card-contenido{
-  height: 194px;
-}
-
 /* imagen cabecera batman */
 
-.fondo-batman{
+.fondo-batman {
   background-image: url("/img/fondo-batman.jpg");
 }
 
 /* imagen fondo harley */
 
-.fondo-harley{
-  background-image: url("/img/fondo-harley.jpg") ;
+.fondo-harley {
+  background-image: url("/img/fondo-harley.jpg");
 }
 
 footer {
@@ -103,11 +113,3 @@ footer {
   height: 51px;
   padding: 16px;
 }
-
-
-
-
-
-
-
-

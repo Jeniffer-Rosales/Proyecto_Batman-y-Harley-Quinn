@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="subtitulo">Descuentos 20%</div>
-        <div class="sub2">Heroes</div>
+      <div class="subtitulo">Descuentos 20%</div>
+      <div class="sub2">Heroes</div>
     </header>
-
-    <div class="contenido">
-        <div class="lista-cards">
-            <div class="card">
-                <div class="card-cabecera fondo-batman"></div>
-                <div class="card-imagen">
-                    <img src="./img/foto-batman.png" alt="foto batman">
-                </div>
-                <div class="card-contenido"></div>
-            </div>
-            <div class="card">
-                <div class="card-cabecera fondo-harley"></div>
-                <div class="card-imagen">
-                    <img src="./img/foto-harley.png" alt="foto batman">
-                </div>
-                <div class="card-contenido"></div>
-            </div>
-            <div class="card">
-                <div class="card-cabecera fondo-batman"></div>
-                <div class="card-imagen">
-                    <img src="./img/foto-batman.png" alt="foto batman">
-                </div>
-                <div class="card-contenido"></div>
-            </div>
+    <div class="caja-mayor">
+      <div class="contenido">
+        <!-- caja batman1 -->
+        <div class="caja">
+          <div class="caja-cabeza">
+            <img src="./img/fondo-batman.jpg" alt="fondo" />
+            <img class="corazon" src="./img/corazon.png" alt="corazon rojo">
+          </div>
+          <div class="centrado">
+            <img class="imagen-circulo" src="./img/foto-batman.png" alt="" />
+          </div>
+          <div class="caja-contenido">
+            <h2>BATMAN</h2>
+            <p>
+              Bruce Wayne es el único personaje que se identifica como Batman y
+              aparece en Batman, Detective Comics, Batman y Robin, y Batman: The
+              Dark Knight. Dick Grayson vuelve al manto de Nightwing
+            </p>
+            <a href="#"><button class="button">Ver más</button></a>
+          </div>
         </div>
 
+        <!-- caja Harley -->
+        <div class="caja">
+          <div class="caja-cabeza">
+            <img src="./img/fondo-harley.jpg" alt="fondo" />
+            <img class="corazon" src="./img/corazon.png" alt="corazon rojo">
+          </div>
+          <div class="centrado">
+            <img class="imagen-circulo" src="./img/foto-harley.png" alt="" />
+          </div>
+          <div class="caja-contenido">
+            <h2>Harley Quinn</h2>
+            <p>
+              La creación de Harley Quinn fue una idea de último minuto
+              propuesta por el escritor estadounidense Paul Dini para modificar
+              una escena del vigésimo-segundo episodio de Batman: la serie
+              animada
+            </p>
 
+            <a href="#"><button class="button">Ver más</button></a>
+          </div>
+        </div>
+
+        <!-- caja batman2 -->
+        <div class="caja">
+          <div class="caja-cabeza">
+            <img src="./img/fondo-batman.jpg" alt="fondo" />
+            <img class="corazon" src="./img/corazon.png" alt="corazon rojo">
+          </div>
+          <div class="centrado">
+            <img class="imagen-circulo" src="./img/foto-batman.png" alt="" />
+          </div>
+          <div class="caja-contenido">
+            <h2>BATMAN</h2>
+            <p>
+              Bruce Wayne es el único personaje que se identifica como Batman y
+              aparece en Batman, Detective Comics, Batman y Robin, y Batman: The
+              Dark Knight. Dick Grayson vuelve al manto de Nightwing
+            </p>
+            <a href="#"><button class="button">Ver más</button></a>
+          </div>
+        </div>
+
+        <!-- cierre caja contenedora -->
+      </div>
     </div>
-    <footer>
-        Todos los derechos reservados a FRONT END 1
-    </footer>
-</body>
-
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
+  </body>
 </html>
